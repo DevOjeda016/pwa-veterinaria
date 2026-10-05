@@ -1,0 +1,32 @@
+COLOCA AQUÍ TUS IMÁGENES (carpeta: public/img/)
+Usa EXACTAMENTE estos nombres (minúsculas, sin espacios, extensión .jpg).
+Si una imagen falta, la app muestra un degradado con una huella, así que no se rompe nada.
+
+LANDING
+  hero-veterinaria.jpg      -> Imagen principal (veterinaria con perro/gato)   ~1000x1100 (vertical)
+  nosotros.jpg              -> Instalaciones o equipo trabajando               ~1200x960
+  equipo-1.jpg              -> Foto de la Dra. Mariana López (retrato)         ~400x400 (cuadrada)
+  equipo-2.jpg              -> Foto del Dr. Carlos Ruiz (retrato)              ~400x400
+  equipo-3.jpg              -> Foto de la Dra. Sofía Méndez (retrato)          ~400x400
+
+SERVICIOS (landing + pantalla Servicios)            ~800x500 (horizontal)
+  servicio-consulta.jpg
+  servicio-vacunacion.jpg
+  servicio-cirugia.jpg
+  servicio-estetica.jpg
+  servicio-laboratorio.jpg
+  servicio-urgencias.jpg
+
+LOGIN / REGISTRO                                    ~1200x1400 (vertical)
+  login.jpg
+  registro.jpg
+
+TARJETAS DE MASCOTAS (según la especie)             ~800x500 (horizontal)
+  mascota-perro.jpg
+  mascota-gato.jpg
+  mascota-ave.jpg
+  mascota-conejo.jpg
+  mascota-otro.jpg
+
+Bancos de imágenes gratuitos: unsplash.com, pexels.com, pixabay.com
+Consejo: comprime las imágenes en squoosh.app o tinypng.com (menos de 300 KB cada una).

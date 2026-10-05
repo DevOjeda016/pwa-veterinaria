@@ -1,0 +1,27 @@
+{
+  "name": "pwa-veterinaria",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n servidor,cliente -c green,cyan \"npm:servidor\" \"npm:cliente\"",
+    "cliente": "vite",
+    "servidor": "node --watch --disable-warning=ExperimentalWarning servidor/index.js",
+    "build": "vite build",
+    "start": "node --disable-warning=ExperimentalWarning servidor/index.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "lucide-react": "^1.52.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-hot-toast": "^2.6.1",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "concurrently": "^10.0.5",
+    "vite": "^8.3.2"
+  }
+}

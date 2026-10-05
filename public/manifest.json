@@ -1,0 +1,24 @@
+{
+  "name": "HuellitasVet - Clínica Veterinaria",
+  "short_name": "HuellitasVet",
+  "description": "Agenda citas, registra a tus mascotas y consulta los servicios de la clínica veterinaria.",
+  "lang": "es-MX",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4fbfa",
+  "theme_color": "#0f9d8a",
+  "categories": ["health", "lifestyle", "medical"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "Mis citas", "url": "/app/citas", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Mis mascotas", "url": "/app/mascotas", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
