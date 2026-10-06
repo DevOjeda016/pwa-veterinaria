@@ -31,7 +31,7 @@ export default function Registro() {
   }
 
   return (
-    <DisenoAuth titulo="Crear cuenta" subtitulo="Regístrate para agendar citas y guardar tus mascotas.">
+    <DisenoAuth titulo="Crear cuenta" subtitulo="Regístrate para agendar citas y guardar tus mascotas." imagen="/img/registro.jpg">
       <form className="form" onSubmit={alEnviar}>
         <label className="field">
           <span>Nombre</span>

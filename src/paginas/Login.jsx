@@ -30,7 +30,7 @@ export default function Login() {
   }
 
   return (
-    <DisenoAuth titulo="Iniciar sesión" subtitulo="Entra para ver tus mascotas y tus citas.">
+    <DisenoAuth titulo="Iniciar sesión" subtitulo="Entra para ver tus mascotas y tus citas." imagen="/img/login.jpg">
       <form className="form" onSubmit={alEnviar}>
         <label className="field">
           <span>Correo</span>
